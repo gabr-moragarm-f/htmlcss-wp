@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 /* utilities */
@@ -16,22 +17,59 @@
 }
 /* /utilities */
 
+body{
+ background-image: url(../img/background.png);
+}
+
 .container{
   width: 1200px;
   margin: 0 auto;
 }
 
 header{
-  height: 150px;
-  background: yellow;
+  background: #fff;
   margin-top: 20px;
+  padding: 10px;
+}
+
+.logo-header{
+  background-image: url(../img/header-background.png);
+  padding: 60px;
+  color: #fff;
+}
+
+.logo{
+  height: 250px;
+  background: url(../img/logo.png) no-repeat center;
+  background-size: contain;
+}
+
+.subheading{
+  text-align: center;
+  font-size: 30px;
 }
 
 .page-center{
   padding: 10px 0;
 }
 
-nav{
+.horizontal-navbar{
+  height: 50px;
+  background-color: #666;
+  color: #fff;
+}
+
+.horizontal-navbar ul{
+  display: inline-blo;
+  margin: 0 auto;
+}
+
+.horizontal-navbar li{
+  padding: 0 10px;
+  line-height: 50px;
+}
+
+.page-center nav{
   width: 290px;
   height: 400px;
   background: cyan;
