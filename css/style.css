@@ -2,6 +2,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+ul{
   list-style-type: none;
 }
 
@@ -11,7 +14,13 @@ a, a:link, a:visited, a:hover, a:active{
 }
 
 h2{
+  padding-top: 10px;
   padding-bottom: 20px;
+}
+
+p{
+  font-size: 20px;
+  padding: 10px 0;
 }
 
 /* utilities */
@@ -25,8 +34,10 @@ h2{
   clear: both;
 }
 
-.border-r-2{
+.box-base{
   border-radius: 2%;
+  padding: 20px;
+  background: #fff;
 }
 /* /utilities */
 
@@ -36,12 +47,11 @@ body{
 
 .container{
   width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 header{
   background: #fff;
-  margin-top: 20px;
   padding: 10px;
 }
 
@@ -71,6 +81,7 @@ header{
   background-color: #666;
   color: #fff;
   position: relative;
+  font-size: 13px;
 }
 
 .horizontal-navbar ul{
@@ -106,21 +117,22 @@ main{
 }
 
 .main-content{
-  background: purple;
-  height: 600px;
 }
 
 .widget-bar{
   width: 15%;
 }
 
-.widget-bar div{
-  height: 250px;
-  margin-bottom: 20px;
-  background-color: pink;
+.widget-box{
+  margin-bottom: 30px;
 }
 
-footer{
-  height: 100px;
-  background: lightgrey;
+.credit{
+  text-align: center;
+  color: #ccc;
+  border-bottom: 1px solid black;
+}
+
+.img{
+  border: 1px solid black
 }
