@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* utilities */
+.float-l{
+  float: left;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /utilities */
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  height: 150px;
+  background: yellow;
+  margin-top: 20px;
+}
+
+.page-center{
+  padding: 10px 0;
+}
+
+nav{
+  width: 290px;
+  height: 400px;
+  background: cyan;
+}
+
+main{
+  width: 580px;
+  height: 600px;
+  background: purple;
+  margin: 0 20px;
+}
+
+.navbar-right nav{
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+footer{
+  height: 100px;
+  background: lightgrey;
+}
